@@ -36,4 +36,4 @@ wget https://github.com/natrix-fork/ironwasp/raw/master/ironwasp.zip -O $iPTH/ir
 unzip $iPTH/ironwasp.zip -d $PTH/drive_c/
 #rm -rf $PTH
 #make executabl script on desktop
-chmod +x /wd/IronWasp
+chmod +x /wd/IronWASP
