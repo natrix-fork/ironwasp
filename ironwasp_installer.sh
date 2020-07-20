@@ -16,7 +16,6 @@ echo ""
 echo "Script Written by Anant shrivastava http://anantshri.info"
 echo "Grab the latest script here : http://blog.anantshri.info/ironwasp-on-linux/"
 echo ""
-read -p "press any key to continue" input_cmd
 echo "Creating directories"
 export WINEARCH=win32
 PTH="${HOME}/IRONWASP"
