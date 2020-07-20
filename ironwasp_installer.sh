@@ -36,10 +36,5 @@ WINEPREFIX=$PTH sh $iPTH/winetricks dotnet20sp2 fontfix
 wget https://github.com/natrix-fork/ironwasp/raw/master/ironwasp.zip -O $iPTH/ironwasp.zip
 unzip $iPTH/ironwasp.zip -d $PTH/drive_c/
 #rm -rf $PTH
-#create a script on desktop
-cat << EOF  > ~/Desktop/IronWasp
-#!/bin/bash
-cd $PTH
-WINEPREFIX=$PTH wine 'c:/IronWASP/IronWASP.exe'
-EOF
-chmod +x ~/Desktop/IronWasp
+#make executabl script on desktop
+chmod +x /wd/IronWasp
